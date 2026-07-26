@@ -1,4 +1,4 @@
-name: CoolDecide bot
+name: DecideDeck bot
 
 # Fully automated — no PC needed. Checks in hourly; a CHEAP gate step decides
 # whether now is one of today's randomly-chosen posting slots, and only then does
