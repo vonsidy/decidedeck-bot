@@ -38,7 +38,7 @@ def main() -> None:
     # gate to the next. A third question is one more chance to swipe, not one more
     # reason to stay. Pacing is deliberately UNCHANGED — trimming the read/countdown
     # too would make it feel rushed and muddy which change moved the number.
-    ap.add_argument("--rounds", type=int, default=2, help="questions per video")
+    ap.add_argument("--rounds", type=int, default=3, help="questions per video")
     ap.add_argument("--date", default=None, help="YYYY-MM-DD (defaults to today)")
     ap.add_argument("--out", default=os.path.join(os.path.dirname(__file__), "output", "short.mp4"))
     ap.add_argument("--upload", action="store_true", help="post the video to YouTube")
@@ -110,7 +110,8 @@ def main() -> None:
     print(f"  format: {fmt} | palette: {palette} | bg: {bg} | topic: {topic}{'' if themed else ' (mixed — no badge)'}")
     for i, it in enumerate(items, 1):
         print(f"  round {i} [{it.fmt}] {it.a} ({it.a_pct}%) vs {it.b} ({it.b_pct}%)")
-    assemble.build(items, args.out)
+    import dd_render
+    dd_render.build(items, args.out)
     print(f"built {args.out} ({os.path.getsize(args.out)//1024} KB) — {len(items)} rounds")
 
     if not (args.upload or config.UPLOAD):

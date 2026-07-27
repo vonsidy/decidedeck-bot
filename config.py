@@ -63,12 +63,12 @@ ENABLE_VOICE = get("ENABLE_VOICE", "0") == "1"
 # the voice sets up the choice and then gets out of the way.
 ENABLE_QUESTION_VOICE = get("ENABLE_QUESTION_VOICE", "1") == "1"
 # Kids' Shorts are read fast; the default TTS pace drags badly against a 3s timer.
-EDGE_RATE = get("EDGE_RATE", "+25%")
+EDGE_RATE = get("EDGE_RATE", "+40%")
 # Ava: bright, young, natural female — fits a kids/teen channel and breaks from the
 # over-used Andrew that half of faceless AI channels run (sounding generically-AI is
 # its own small penalty). Override with EDGE_VOICE, e.g. en-US-AnaNeural (a younger
 # child voice) or en-US-AndrewMultilingualNeural to revert.
-EDGE_VOICE = get("EDGE_VOICE", "en-US-AvaMultilingualNeural")
+EDGE_VOICE = get("EDGE_VOICE", "en-US-AriaNeural")
 ENABLE_MUSIC = get("ENABLE_MUSIC", "1") == "1"
 # Music is the whole audio bed now (no voice competing), so it can sit up front —
 # but under the ticks/ding, which carry the timing.

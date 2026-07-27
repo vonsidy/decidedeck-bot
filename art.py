@@ -96,8 +96,8 @@ def _pace() -> None:
 
 # One house style for every card. Flat sticker art on white reads instantly at
 # thumbnail size and cuts out cleanly against the coloured panels.
-STYLE = ("cute simple flat cartoon sticker illustration of {}, bold clean outlines, "
-         "vibrant colors, plain white background, centered, no text, for kids")
+STYLE = ("cute cartoon sticker illustration of {}, bold vibrant colors, "
+         "clean bold outlines, dark navy background, centered, no text")
 
 # Abstract options translated into something an image model can actually draw.
 # Concrete options ("have a pet dragon") are left out — the raw text works.

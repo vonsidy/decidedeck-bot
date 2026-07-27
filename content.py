@@ -826,7 +826,7 @@ FORMATS = {
 # _DILEMMA names as a failure). trivia and higher_lower are FACTUAL: one answer is
 # right, so there is nothing to argue about. To air one here, add it to this list —
 # but teen-frame its prompt first, or it drags the channel back to little kids.
-FORMAT_ROTATION = ["wyr", "wyr", "wyr", "rank"]
+FORMAT_ROTATION = ["wyr"]
 
 
 # Posts per day. Must match scheduler.MAX_PER_DAY. Deliberately a literal and not

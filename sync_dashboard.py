@@ -20,7 +20,9 @@ import urllib.error
 import urllib.request
 
 REPO = os.getenv("DASHBOARD_REPO", "vonsidy/youtube-shorts-bot")
-REMOTE_PATH = "dashboard/kids.json"
+# DecideDeck pushes to its OWN file so it never overwrites CoolDecide's kids.json
+# on the shared dashboard site. The frontend needs a DecideDeck view reading this.
+REMOTE_PATH = os.getenv("DASHBOARD_REMOTE_PATH", "dashboard/decidedeck.json")
 LOCAL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dashboard", "kids.json")
 UA = {"User-Agent": "cooldecide-bot/0.1"}
 
