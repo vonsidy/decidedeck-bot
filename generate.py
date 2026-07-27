@@ -204,7 +204,12 @@ _ART_RULE = (
     "physically drawable — never an abstract phrase. Name the ONE thing in frame and "
     "what it is doing. AT MOST 12 WORDS, no set dressing, no camera directions, no "
     "background crowds. If the option is already a thing you can draw (a dragon, "
-    "pizza), just describe that thing."
+    "pizza), just describe that thing. The picture must instantly read as THIS exact "
+    "option — never a symbol, mascot, or metaphor: never draw an animal or unrelated "
+    "object to stand for a feeling, status, or amount (no lion for famous, no crown "
+    "for rich). For fame, followers, money or feelings, draw the literal thing — a "
+    "phone screen showing a follower count like 1000000, a viral video on a phone, or "
+    "a big pile of cash."
 )
 
 # The opening decides everything on Shorts: if the first card isn't instantly
