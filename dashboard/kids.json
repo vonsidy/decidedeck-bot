@@ -1,1 +1,396 @@
-{"channel":{"title":"DecideDeck","handle":"@thedecidedeck","subscribers":0,"views":0,"videoCount":0,"thumbnail":""},"videos":[],"runs":[],"history":[],"pending_comments":[],"learning":{"ready":false,"trained_on":0,"needs":4,"min_age_days":3.0,"min_per_option":2,"themes":{},"counts":{"theme":{}}},"schedule":{"upcoming":[],"max_per_day":2},"started":"2026-07-27","updated":"2026-07-27T18:26:15+00:00"}
+{
+  "channel": {
+    "title": "DecideDeck",
+    "subscribers": 0,
+    "views": 0,
+    "videoCount": 1,
+    "thumbnail": "https://yt3.ggpht.com/3f1ZMUfT67FGGTxg1-7ZbrO_iJx2OWD7VJA1A_VHWyUQ3p_BnCm7y_sM9mcqdmxbRPSjJ0xF84c=s88-c-k-c0x00ffffff-no-rj"
+  },
+  "videos": [
+    {
+      "date": "2026-07-27T20:16:29+00:00",
+      "id": "vaQTwYYb7mg",
+      "url": "https://youtube.com/shorts/vaQTwYYb7mg",
+      "title": "Be honest: Be TikTok famous but broke or Be rich but totally unknown? \ud83d\udcad",
+      "format": "wyr",
+      "theme": "Would You Rather",
+      "rounds": 3,
+      "privacy": "public",
+      "local_time": "04:16 PM",
+      "manual": false,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "clipcheck": {
+        "reportId": "4b7fee91-77a4-402d-8ca5-d194942d9901",
+        "botId": "kids",
+        "assetId": "797dc90d32bea87270d0",
+        "platform": "youtube",
+        "decision": "pass",
+        "score": 100,
+        "createdAt": "2026-07-27T20:16:27+00:00",
+        "metadata": {
+          "filename": "short.mp4",
+          "width": 1080,
+          "height": 1920,
+          "durationSeconds": 24.37,
+          "hasAudio": true,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "bytes": 5614419
+        },
+        "findings": [
+          {
+            "checkId": "file-intact",
+            "passed": true,
+            "severity": "error",
+            "message": "File size and bitrate look like a real render.",
+            "evidence": {
+              "bytes": 5614419,
+              "bitrateKbps": 1843,
+              "minBytes": 50000,
+              "minKbps": 60
+            }
+          },
+          {
+            "checkId": "audio-stream",
+            "passed": true,
+            "severity": "error",
+            "message": "An audio stream is present.",
+            "evidence": {
+              "hasAudio": true,
+              "audioCodec": "aac"
+            }
+          },
+          {
+            "checkId": "vertical-aspect-ratio",
+            "passed": true,
+            "severity": "error",
+            "message": "Video uses the expected vertical aspect ratio.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "aspectRatio": 0.5625
+            }
+          },
+          {
+            "checkId": "minimum-resolution",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video meets the configured minimum resolution.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "minimumWidth": 720,
+              "minimumHeight": 1280
+            }
+          },
+          {
+            "checkId": "duration",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video duration is inside the configured range.",
+            "evidence": {
+              "durationSeconds": 24.37,
+              "minimumSeconds": 1,
+              "maximumSeconds": 180
+            }
+          },
+          {
+            "checkId": "even-dimensions",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video dimensions are encoder-friendly even numbers.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          {
+            "checkId": "audio-not-silent",
+            "passed": true,
+            "severity": "error",
+            "message": "Audio has real sound.",
+            "evidence": {
+              "meanVolumeDb": -19.1,
+              "silentThresholdDb": -50
+            }
+          },
+          {
+            "checkId": "not-mostly-black",
+            "passed": true,
+            "severity": "error",
+            "message": "Frames are drawing normally.",
+            "evidence": {
+              "blackSeconds": 0,
+              "blackFraction": 0.0,
+              "maxBlackFraction": 0.5
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "runs": [
+    {
+      "status": "posted",
+      "title": "Be honest: Be TikTok famous but broke or Be rich but totally unknown? \ud83d\udcad",
+      "manual": false,
+      "time": "2026-07-27T20:16:29+00:00"
+    }
+  ],
+  "history": [
+    {
+      "d": "2026-07-27",
+      "subs": 0,
+      "views": 0,
+      "likes": 0
+    }
+  ],
+  "pending_comments": [],
+  "learning": {
+    "ready": false,
+    "trained_on": 0,
+    "needs": 4,
+    "min_age_days": 3.0,
+    "min_per_option": 2,
+    "themes": {},
+    "counts": {
+      "theme": {}
+    },
+    "best_theme": ""
+  },
+  "schedule": {
+    "upcoming": [
+      "2026-07-27T21:55:00-04:00",
+      "2026-07-28T09:43:00-04:00",
+      "2026-07-28T20:54:00-04:00",
+      "2026-07-29T16:04:00-04:00",
+      "2026-07-29T21:32:00-04:00"
+    ],
+    "max_per_day": 2
+  },
+  "started": "2026-07-27",
+  "updated": "2026-07-27T20:16:29+00:00",
+  "clipcheck": {
+    "mode": "observation",
+    "reports": [
+      {
+        "reportId": "4b7fee91-77a4-402d-8ca5-d194942d9901",
+        "botId": "kids",
+        "assetId": "797dc90d32bea87270d0",
+        "platform": "youtube",
+        "decision": "pass",
+        "score": 100,
+        "createdAt": "2026-07-27T20:16:27+00:00",
+        "metadata": {
+          "filename": "short.mp4",
+          "width": 1080,
+          "height": 1920,
+          "durationSeconds": 24.37,
+          "hasAudio": true,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "bytes": 5614419
+        },
+        "findings": [
+          {
+            "checkId": "file-intact",
+            "passed": true,
+            "severity": "error",
+            "message": "File size and bitrate look like a real render.",
+            "evidence": {
+              "bytes": 5614419,
+              "bitrateKbps": 1843,
+              "minBytes": 50000,
+              "minKbps": 60
+            }
+          },
+          {
+            "checkId": "audio-stream",
+            "passed": true,
+            "severity": "error",
+            "message": "An audio stream is present.",
+            "evidence": {
+              "hasAudio": true,
+              "audioCodec": "aac"
+            }
+          },
+          {
+            "checkId": "vertical-aspect-ratio",
+            "passed": true,
+            "severity": "error",
+            "message": "Video uses the expected vertical aspect ratio.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "aspectRatio": 0.5625
+            }
+          },
+          {
+            "checkId": "minimum-resolution",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video meets the configured minimum resolution.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "minimumWidth": 720,
+              "minimumHeight": 1280
+            }
+          },
+          {
+            "checkId": "duration",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video duration is inside the configured range.",
+            "evidence": {
+              "durationSeconds": 24.37,
+              "minimumSeconds": 1,
+              "maximumSeconds": 180
+            }
+          },
+          {
+            "checkId": "even-dimensions",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video dimensions are encoder-friendly even numbers.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          {
+            "checkId": "audio-not-silent",
+            "passed": true,
+            "severity": "error",
+            "message": "Audio has real sound.",
+            "evidence": {
+              "meanVolumeDb": -19.1,
+              "silentThresholdDb": -50
+            }
+          },
+          {
+            "checkId": "not-mostly-black",
+            "passed": true,
+            "severity": "error",
+            "message": "Frames are drawing normally.",
+            "evidence": {
+              "blackSeconds": 0,
+              "blackFraction": 0.0,
+              "maxBlackFraction": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "latest": {
+      "reportId": "4b7fee91-77a4-402d-8ca5-d194942d9901",
+      "botId": "kids",
+      "assetId": "797dc90d32bea87270d0",
+      "platform": "youtube",
+      "decision": "pass",
+      "score": 100,
+      "createdAt": "2026-07-27T20:16:27+00:00",
+      "metadata": {
+        "filename": "short.mp4",
+        "width": 1080,
+        "height": 1920,
+        "durationSeconds": 24.37,
+        "hasAudio": true,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "bytes": 5614419
+      },
+      "findings": [
+        {
+          "checkId": "file-intact",
+          "passed": true,
+          "severity": "error",
+          "message": "File size and bitrate look like a real render.",
+          "evidence": {
+            "bytes": 5614419,
+            "bitrateKbps": 1843,
+            "minBytes": 50000,
+            "minKbps": 60
+          }
+        },
+        {
+          "checkId": "audio-stream",
+          "passed": true,
+          "severity": "error",
+          "message": "An audio stream is present.",
+          "evidence": {
+            "hasAudio": true,
+            "audioCodec": "aac"
+          }
+        },
+        {
+          "checkId": "vertical-aspect-ratio",
+          "passed": true,
+          "severity": "error",
+          "message": "Video uses the expected vertical aspect ratio.",
+          "evidence": {
+            "width": 1080,
+            "height": 1920,
+            "aspectRatio": 0.5625
+          }
+        },
+        {
+          "checkId": "minimum-resolution",
+          "passed": true,
+          "severity": "warning",
+          "message": "Video meets the configured minimum resolution.",
+          "evidence": {
+            "width": 1080,
+            "height": 1920,
+            "minimumWidth": 720,
+            "minimumHeight": 1280
+          }
+        },
+        {
+          "checkId": "duration",
+          "passed": true,
+          "severity": "warning",
+          "message": "Video duration is inside the configured range.",
+          "evidence": {
+            "durationSeconds": 24.37,
+            "minimumSeconds": 1,
+            "maximumSeconds": 180
+          }
+        },
+        {
+          "checkId": "even-dimensions",
+          "passed": true,
+          "severity": "warning",
+          "message": "Video dimensions are encoder-friendly even numbers.",
+          "evidence": {
+            "width": 1080,
+            "height": 1920
+          }
+        },
+        {
+          "checkId": "audio-not-silent",
+          "passed": true,
+          "severity": "error",
+          "message": "Audio has real sound.",
+          "evidence": {
+            "meanVolumeDb": -19.1,
+            "silentThresholdDb": -50
+          }
+        },
+        {
+          "checkId": "not-mostly-black",
+          "passed": true,
+          "severity": "error",
+          "message": "Frames are drawing normally.",
+          "evidence": {
+            "blackSeconds": 0,
+            "blackFraction": 0.0,
+            "maxBlackFraction": 0.5
+          }
+        }
+      ]
+    }
+  }
+}
