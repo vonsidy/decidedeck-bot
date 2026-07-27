@@ -19,7 +19,7 @@ import content
 _HERE = os.path.dirname(__file__)
 DATA_FILE = os.path.join(_HERE, "dashboard", "kids.json")
 CONTROLS_FILE = os.path.join(_HERE, "dashboard", "controls.json")
-BOT_ID = "kids"
+BOT_ID = "decidedeck"
 ET = datetime.timezone(datetime.timedelta(hours=-4))  # US/Eastern (DST); display only
 
 
