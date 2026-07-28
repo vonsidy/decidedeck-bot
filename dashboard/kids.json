@@ -1,9 +1,9 @@
 {
   "channel": {
     "title": "DecideDeck",
-    "subscribers": 0,
+    "subscribers": 1,
     "views": 10,
-    "videoCount": 2,
+    "videoCount": 3,
     "thumbnail": "https://yt3.ggpht.com/3f1ZMUfT67FGGTxg1-7ZbrO_iJx2OWD7VJA1A_VHWyUQ3p_BnCm7y_sM9mcqdmxbRPSjJ0xF84c=s88-c-k-c0x00ffffff-no-rj"
   },
   "videos": [
@@ -18,8 +18,8 @@
       "privacy": "public",
       "local_time": "01:20 PM",
       "manual": false,
-      "views": 0,
-      "likes": 0,
+      "views": 357,
+      "likes": 5,
       "comments": 0,
       "clipcheck": {
         "reportId": "eac0da31-b892-43e8-a2bb-3b4252e23403",
@@ -141,7 +141,7 @@
       "privacy": "public",
       "local_time": "04:16 PM",
       "manual": false,
-      "views": 4,
+      "views": 9,
       "likes": 1,
       "comments": 0,
       "clipcheck": {
@@ -277,9 +277,9 @@
     },
     {
       "d": "2026-07-28",
-      "subs": 0,
+      "subs": 1,
       "views": 10,
-      "likes": 1
+      "likes": 6
     }
   ],
   "pending_comments": [],
@@ -306,7 +306,7 @@
     "max_per_day": 2
   },
   "started": "2026-07-27",
-  "updated": "2026-07-28T17:20:38+00:00",
+  "updated": "2026-07-28T22:40:29+00:00",
   "clipcheck": {
     "mode": "observation",
     "reports": [
