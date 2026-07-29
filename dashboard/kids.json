@@ -1,8 +1,8 @@
 {
   "channel": {
     "title": "DecideDeck",
-    "subscribers": 1,
-    "views": 10,
+    "subscribers": 2,
+    "views": 11,
     "videoCount": 3,
     "thumbnail": "https://yt3.ggpht.com/3f1ZMUfT67FGGTxg1-7ZbrO_iJx2OWD7VJA1A_VHWyUQ3p_BnCm7y_sM9mcqdmxbRPSjJ0xF84c=s88-c-k-c0x00ffffff-no-rj"
   },
@@ -18,8 +18,8 @@
       "privacy": "public",
       "local_time": "01:20 PM",
       "manual": false,
-      "views": 357,
-      "likes": 5,
+      "views": 581,
+      "likes": 9,
       "comments": 0,
       "clipcheck": {
         "reportId": "eac0da31-b892-43e8-a2bb-3b4252e23403",
@@ -141,7 +141,7 @@
       "privacy": "public",
       "local_time": "04:16 PM",
       "manual": false,
-      "views": 9,
+      "views": 12,
       "likes": 1,
       "comments": 0,
       "clipcheck": {
@@ -280,6 +280,12 @@
       "subs": 1,
       "views": 10,
       "likes": 6
+    },
+    {
+      "d": "2026-07-29",
+      "subs": 2,
+      "views": 11,
+      "likes": 10
     }
   ],
   "pending_comments": [],
@@ -297,16 +303,17 @@
   },
   "schedule": {
     "upcoming": [
-      "2026-07-28T20:54:00-04:00",
       "2026-07-29T16:04:00-04:00",
       "2026-07-29T21:32:00-04:00",
       "2026-07-30T11:43:00-04:00",
-      "2026-07-30T16:26:00-04:00"
+      "2026-07-30T16:26:00-04:00",
+      "2026-07-31T09:25:00-04:00",
+      "2026-07-31T15:15:00-04:00"
     ],
     "max_per_day": 2
   },
   "started": "2026-07-27",
-  "updated": "2026-07-28T22:40:29+00:00",
+  "updated": "2026-07-29T08:12:04+00:00",
   "clipcheck": {
     "mode": "observation",
     "reports": [
