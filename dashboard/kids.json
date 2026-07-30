@@ -3,7 +3,7 @@
     "title": "DecideDeck",
     "subscribers": 2,
     "views": 14,
-    "videoCount": 3,
+    "videoCount": 4,
     "thumbnail": "https://yt3.ggpht.com/3f1ZMUfT67FGGTxg1-7ZbrO_iJx2OWD7VJA1A_VHWyUQ3p_BnCm7y_sM9mcqdmxbRPSjJ0xF84c=s88-c-k-c0x00ffffff-no-rj"
   },
   "videos": [
@@ -18,7 +18,7 @@
       "privacy": "public",
       "local_time": "06:42 PM",
       "manual": false,
-      "views": 0,
+      "views": 4,
       "likes": 0,
       "comments": 0,
       "clipcheck": {
@@ -141,7 +141,7 @@
       "privacy": "public",
       "local_time": "01:20 PM",
       "manual": false,
-      "views": 1069,
+      "views": 1083,
       "likes": 11,
       "comments": 0,
       "clipcheck": {
@@ -415,6 +415,12 @@
       "subs": 2,
       "views": 14,
       "likes": 12
+    },
+    {
+      "d": "2026-07-30",
+      "subs": 2,
+      "views": 14,
+      "likes": 12
     }
   ],
   "pending_comments": [],
@@ -432,16 +438,17 @@
   },
   "schedule": {
     "upcoming": [
-      "2026-07-29T21:32:00-04:00",
       "2026-07-30T11:43:00-04:00",
       "2026-07-30T16:26:00-04:00",
       "2026-07-31T09:25:00-04:00",
-      "2026-07-31T15:15:00-04:00"
+      "2026-07-31T15:15:00-04:00",
+      "2026-08-01T11:41:00-04:00",
+      "2026-08-01T18:18:00-04:00"
     ],
     "max_per_day": 2
   },
   "started": "2026-07-27",
-  "updated": "2026-07-29T22:42:16+00:00",
+  "updated": "2026-07-30T07:56:33+00:00",
   "clipcheck": {
     "mode": "observation",
     "reports": [
