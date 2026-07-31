@@ -2,11 +2,134 @@
   "channel": {
     "title": "DecideDeck",
     "subscribers": 2,
-    "views": 1126,
-    "videoCount": 6,
+    "views": 1870,
+    "videoCount": 7,
     "thumbnail": "https://yt3.ggpht.com/3f1ZMUfT67FGGTxg1-7ZbrO_iJx2OWD7VJA1A_VHWyUQ3p_BnCm7y_sM9mcqdmxbRPSjJ0xF84c=s88-c-k-c0x00ffffff-no-rj"
   },
   "videos": [
+    {
+      "date": "2026-07-31T22:47:29+00:00",
+      "id": "Va9vIEDPa44",
+      "url": "https://youtube.com/shorts/Va9vIEDPa44",
+      "title": "Hardest WYR ever: Give up TikTok forever or Give up Instagram forever \ud83e\udd14",
+      "format": "wyr",
+      "theme": "Would You Rather",
+      "rounds": 3,
+      "privacy": "public",
+      "local_time": "06:47 PM",
+      "manual": false,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "clipcheck": {
+        "reportId": "1235c5ab-d5a0-4e7f-bc45-8dfe08f60520",
+        "botId": "kids",
+        "assetId": "f559eefa6f1d5e377933",
+        "platform": "youtube",
+        "decision": "pass",
+        "score": 100,
+        "createdAt": "2026-07-31T22:47:27+00:00",
+        "metadata": {
+          "filename": "short.mp4",
+          "width": 1080,
+          "height": 1920,
+          "durationSeconds": 23.6,
+          "hasAudio": true,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "bytes": 5038502
+        },
+        "findings": [
+          {
+            "checkId": "file-intact",
+            "passed": true,
+            "severity": "error",
+            "message": "File size and bitrate look like a real render.",
+            "evidence": {
+              "bytes": 5038502,
+              "bitrateKbps": 1708,
+              "minBytes": 50000,
+              "minKbps": 60
+            }
+          },
+          {
+            "checkId": "audio-stream",
+            "passed": true,
+            "severity": "error",
+            "message": "An audio stream is present.",
+            "evidence": {
+              "hasAudio": true,
+              "audioCodec": "aac"
+            }
+          },
+          {
+            "checkId": "vertical-aspect-ratio",
+            "passed": true,
+            "severity": "error",
+            "message": "Video uses the expected vertical aspect ratio.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "aspectRatio": 0.5625
+            }
+          },
+          {
+            "checkId": "minimum-resolution",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video meets the configured minimum resolution.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "minimumWidth": 720,
+              "minimumHeight": 1280
+            }
+          },
+          {
+            "checkId": "duration",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video duration is inside the configured range.",
+            "evidence": {
+              "durationSeconds": 23.6,
+              "minimumSeconds": 1,
+              "maximumSeconds": 180
+            }
+          },
+          {
+            "checkId": "even-dimensions",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video dimensions are encoder-friendly even numbers.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          {
+            "checkId": "audio-not-silent",
+            "passed": true,
+            "severity": "error",
+            "message": "Audio has real sound.",
+            "evidence": {
+              "meanVolumeDb": -19.2,
+              "silentThresholdDb": -50
+            }
+          },
+          {
+            "checkId": "not-mostly-black",
+            "passed": true,
+            "severity": "error",
+            "message": "Frames are drawing normally.",
+            "evidence": {
+              "blackSeconds": 0,
+              "blackFraction": 0.0,
+              "maxBlackFraction": 0.5
+            }
+          }
+        ]
+      }
+    },
     {
       "date": "2026-07-31T17:19:00+00:00",
       "id": "zYk7ifaoA1M",
@@ -18,8 +141,8 @@
       "privacy": "public",
       "local_time": "01:19 PM",
       "manual": false,
-      "views": 0,
-      "likes": 0,
+      "views": 236,
+      "likes": 3,
       "comments": 0,
       "clipcheck": {
         "reportId": "11e937b1-d5a6-447d-9c73-748c9d0a3f6d",
@@ -141,7 +264,7 @@
       "privacy": "public",
       "local_time": "06:54 PM",
       "manual": false,
-      "views": 436,
+      "views": 485,
       "likes": 4,
       "comments": 0,
       "clipcheck": {
@@ -264,7 +387,7 @@
       "privacy": "public",
       "local_time": "01:16 PM",
       "manual": false,
-      "views": 124,
+      "views": 128,
       "likes": 1,
       "comments": 0,
       "clipcheck": {
@@ -387,7 +510,7 @@
       "privacy": "public",
       "local_time": "06:42 PM",
       "manual": false,
-      "views": 40,
+      "views": 53,
       "likes": 1,
       "comments": 0,
       "clipcheck": {
@@ -633,7 +756,7 @@
       "privacy": "public",
       "local_time": "04:16 PM",
       "manual": false,
-      "views": 29,
+      "views": 30,
       "likes": 1,
       "comments": 0,
       "clipcheck": {
@@ -749,6 +872,12 @@
   "runs": [
     {
       "status": "posted",
+      "title": "Hardest WYR ever: Give up TikTok forever or Give up Instagram forever \ud83e\udd14",
+      "manual": false,
+      "time": "2026-07-31T22:47:29+00:00"
+    },
+    {
+      "status": "posted",
       "title": "Would You Rather: Keep every Snapchat streak forever or Have unlimited phone data forever? \ud83d\ude33",
       "manual": false,
       "time": "2026-07-31T17:19:00+00:00"
@@ -812,28 +941,29 @@
     {
       "d": "2026-07-31",
       "subs": 2,
-      "views": 1126,
-      "likes": 17
+      "views": 1870,
+      "likes": 21
     }
   ],
   "pending_comments": [],
   "learning": {
     "ready": false,
-    "trained_on": 1,
+    "trained_on": 2,
     "needs": 4,
     "min_age_days": 3.0,
     "min_per_option": 2,
-    "themes": {},
+    "themes": {
+      "Would You Rather": 1.0
+    },
     "counts": {
       "theme": {
-        "Would You Rather": 1
+        "Would You Rather": 2
       }
     },
-    "best_theme": ""
+    "best_theme": "Would You Rather"
   },
   "schedule": {
     "upcoming": [
-      "2026-07-31T15:15:00-04:00",
       "2026-08-01T11:41:00-04:00",
       "2026-08-01T18:18:00-04:00",
       "2026-08-02T15:04:00-04:00",
@@ -842,7 +972,7 @@
     "max_per_day": 2
   },
   "started": "2026-07-27",
-  "updated": "2026-07-31T17:19:00+00:00",
+  "updated": "2026-07-31T22:47:29+00:00",
   "clipcheck": {
     "mode": "observation",
     "reports": [
@@ -1493,25 +1623,133 @@
             }
           }
         ]
+      },
+      {
+        "reportId": "1235c5ab-d5a0-4e7f-bc45-8dfe08f60520",
+        "botId": "kids",
+        "assetId": "f559eefa6f1d5e377933",
+        "platform": "youtube",
+        "decision": "pass",
+        "score": 100,
+        "createdAt": "2026-07-31T22:47:27+00:00",
+        "metadata": {
+          "filename": "short.mp4",
+          "width": 1080,
+          "height": 1920,
+          "durationSeconds": 23.6,
+          "hasAudio": true,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "bytes": 5038502
+        },
+        "findings": [
+          {
+            "checkId": "file-intact",
+            "passed": true,
+            "severity": "error",
+            "message": "File size and bitrate look like a real render.",
+            "evidence": {
+              "bytes": 5038502,
+              "bitrateKbps": 1708,
+              "minBytes": 50000,
+              "minKbps": 60
+            }
+          },
+          {
+            "checkId": "audio-stream",
+            "passed": true,
+            "severity": "error",
+            "message": "An audio stream is present.",
+            "evidence": {
+              "hasAudio": true,
+              "audioCodec": "aac"
+            }
+          },
+          {
+            "checkId": "vertical-aspect-ratio",
+            "passed": true,
+            "severity": "error",
+            "message": "Video uses the expected vertical aspect ratio.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "aspectRatio": 0.5625
+            }
+          },
+          {
+            "checkId": "minimum-resolution",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video meets the configured minimum resolution.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "minimumWidth": 720,
+              "minimumHeight": 1280
+            }
+          },
+          {
+            "checkId": "duration",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video duration is inside the configured range.",
+            "evidence": {
+              "durationSeconds": 23.6,
+              "minimumSeconds": 1,
+              "maximumSeconds": 180
+            }
+          },
+          {
+            "checkId": "even-dimensions",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video dimensions are encoder-friendly even numbers.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          {
+            "checkId": "audio-not-silent",
+            "passed": true,
+            "severity": "error",
+            "message": "Audio has real sound.",
+            "evidence": {
+              "meanVolumeDb": -19.2,
+              "silentThresholdDb": -50
+            }
+          },
+          {
+            "checkId": "not-mostly-black",
+            "passed": true,
+            "severity": "error",
+            "message": "Frames are drawing normally.",
+            "evidence": {
+              "blackSeconds": 0,
+              "blackFraction": 0.0,
+              "maxBlackFraction": 0.5
+            }
+          }
+        ]
       }
     ],
     "latest": {
-      "reportId": "11e937b1-d5a6-447d-9c73-748c9d0a3f6d",
+      "reportId": "1235c5ab-d5a0-4e7f-bc45-8dfe08f60520",
       "botId": "kids",
-      "assetId": "a7f9b0a6d6e712889c8c",
+      "assetId": "f559eefa6f1d5e377933",
       "platform": "youtube",
       "decision": "pass",
       "score": 100,
-      "createdAt": "2026-07-31T17:18:58+00:00",
+      "createdAt": "2026-07-31T22:47:27+00:00",
       "metadata": {
         "filename": "short.mp4",
         "width": 1080,
         "height": 1920,
-        "durationSeconds": 24.3,
+        "durationSeconds": 23.6,
         "hasAudio": true,
         "videoCodec": "h264",
         "audioCodec": "aac",
-        "bytes": 5277944
+        "bytes": 5038502
       },
       "findings": [
         {
@@ -1520,8 +1758,8 @@
           "severity": "error",
           "message": "File size and bitrate look like a real render.",
           "evidence": {
-            "bytes": 5277944,
-            "bitrateKbps": 1738,
+            "bytes": 5038502,
+            "bitrateKbps": 1708,
             "minBytes": 50000,
             "minKbps": 60
           }
@@ -1565,7 +1803,7 @@
           "severity": "warning",
           "message": "Video duration is inside the configured range.",
           "evidence": {
-            "durationSeconds": 24.3,
+            "durationSeconds": 23.6,
             "minimumSeconds": 1,
             "maximumSeconds": 180
           }
@@ -1586,7 +1824,7 @@
           "severity": "error",
           "message": "Audio has real sound.",
           "evidence": {
-            "meanVolumeDb": -19.0,
+            "meanVolumeDb": -19.2,
             "silentThresholdDb": -50
           }
         },
