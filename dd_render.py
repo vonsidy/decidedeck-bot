@@ -8,7 +8,7 @@ under the voice). Output: 1080x1920 H.264/AAC mp4 at out_path.
 Everything downstream (meta, scheduler, youtube_upload, dashboard) is unchanged.
 """
 from __future__ import annotations
-import os, json, wave, math, tempfile, shutil, subprocess
+import os, json, wave, math, tempfile, shutil, subprocess, hashlib
 
 import config
 import card
@@ -80,6 +80,17 @@ def build(items, out_path: str, background: str | None = None) -> str:
     if os.path.isdir(NODE_PATH):
         env["NODE_PATH"] = NODE_PATH
 
+    # Per-VIDEO palette rotation. "pal" was WARM[i % 6] keyed on the ROUND index
+    # (0,1,2), so EVERY video came out coral/tangerine/sunset in the same order —
+    # identical backgrounds every upload, which reads as repetitive content. Rotate
+    # by how many videos have already posted, so consecutive uploads step through
+    # all six warm backgrounds and never repeat two in a row. Falls back to a
+    # content hash when the post count is unavailable (e.g. the standalone test).
+    try:
+        import dashboard as _dash
+        poff = len(_dash._load().get("videos", [])) % len(WARM)
+    except Exception:
+        poff = int(hashlib.sha1("|".join((it.a or "") + (it.b or "") for it in items).encode("utf-8")).hexdigest()[:8], 16) % len(WARM)
     rounds, durs, vls, voices = [], [], [], []
     for i, it in enumerate(items):
         a_img = card.photo_for(it.a, getattr(it, "a_art", "") or None)
@@ -98,7 +109,7 @@ def build(items, out_path: str, background: str | None = None) -> str:
         vl = round(_clamp(d + 0.55, 1.6, 4.6), 2); vls.append(vl)
         head, sub = HEAD.get(it.fmt, HEAD["wyr"])
         rounds.append({
-            "pal": WARM[i % len(WARM)], "head": head, "sub": sub,
+            "pal": WARM[(i + poff) % len(WARM)], "head": head, "sub": sub,
             "la": it.a, "lb": it.b, "imgA": a_img, "imgB": b_img,
             "fitA": _fit(a_img), "fitB": _fit(b_img),
             "sa": SUITS_A[i % 3], "sb": SUITS_B[i % 3],
