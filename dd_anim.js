@@ -11,18 +11,18 @@ const b64 = (p) => 'data:image/jpeg;base64,' + fs.readFileSync(p).toString('base
 const esc = (s) => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
 const WARM = {
-  coral:{felt:'radial-gradient(80% 62% at 50% 44%,#FF8A7A 0%,#FF4E8B 52%,#E5336B 100%)',gold:'#FFD23F',plaque:'#C2295A',headStroke:'#7d1a3a',
-    a:{accent:'#DB2777',edge:'#9D174D',chipTxt:'#fff',glow:'rgba(219,39,119,.75)'}, b:{accent:'#F97316',edge:'#9A3412',chipTxt:'#fff',glow:'rgba(249,115,22,.7)'}},
-  tangerine:{felt:'radial-gradient(80% 62% at 50% 44%,#FFA24D 0%,#F5661E 52%,#D8410E 100%)',gold:'#FFE05C',plaque:'#C23A0C',headStroke:'#7d2606',
-    a:{accent:'#E11D48',edge:'#9F1239',chipTxt:'#fff',glow:'rgba(225,29,72,.72)'}, b:{accent:'#FFC93C',edge:'#B45309',chipTxt:'#3a2600',glow:'rgba(255,201,60,.75)'}},
-  sunset:{felt:'radial-gradient(80% 62% at 50% 44%,#FF8A5B 0%,#FF5C8A 52%,#C84BC8 100%)',gold:'#FFD23F',plaque:'#A6367A',headStroke:'#6b2050',
-    a:{accent:'#FB7185',edge:'#9F1239',chipTxt:'#fff',glow:'rgba(251,113,133,.72)'}, b:{accent:'#A855F7',edge:'#6B21A8',chipTxt:'#fff',glow:'rgba(168,85,247,.72)'}},
-  cherry:{felt:'radial-gradient(80% 62% at 50% 44%,#FF6B6B 0%,#E5335B 52%,#B31E4B 100%)',gold:'#FFD23F',plaque:'#8E1636',headStroke:'#5c0e24',
-    a:{accent:'#F43F5E',edge:'#9F1239',chipTxt:'#fff',glow:'rgba(244,63,94,.72)'}, b:{accent:'#FBBF24',edge:'#B45309',chipTxt:'#3a2600',glow:'rgba(251,191,36,.72)'}},
-  amber:{felt:'radial-gradient(80% 62% at 50% 44%,#FFD35C 0%,#FF9E3D 52%,#F5731E 100%)',gold:'#fff',plaque:'#C25A12',headStroke:'#7d3908',
-    a:{accent:'#F97316',edge:'#9A3412',chipTxt:'#fff',glow:'rgba(249,115,22,.72)'}, b:{accent:'#EC4899',edge:'#9D174D',chipTxt:'#fff',glow:'rgba(236,72,153,.72)'}},
-  fuchsia:{felt:'radial-gradient(80% 62% at 50% 44%,#FF6FB0 0%,#E13BB0 52%,#B02A8C 100%)',gold:'#FFD23F',plaque:'#8E1E70',headStroke:'#5c1248',
-    a:{accent:'#EC4899',edge:'#9D174D',chipTxt:'#fff',glow:'rgba(236,72,153,.72)'}, b:{accent:'#FB923C',edge:'#9A3412',chipTxt:'#fff',glow:'rgba(251,146,60,.72)'}},
+  sunset:{felt:'radial-gradient(80% 62% at 50% 44%,#FF8A5B 0%,#FF4E6B 52%,#C81E4B 100%)',gold:'#FFD23F',plaque:'#8E1636',headStroke:'#5c0e24',
+    a:{accent:'#FB7185',edge:'#9F1239',chipTxt:'#fff',glow:'rgba(251,113,133,.72)'}, b:{accent:'#F97316',edge:'#9A3412',chipTxt:'#fff',glow:'rgba(249,115,22,.72)'}},
+  gold:{felt:'radial-gradient(80% 62% at 50% 44%,#FBBF24 0%,#D97706 52%,#7C2D12 100%)',gold:'#FDE047',plaque:'#7C2D12',headStroke:'#4a1a08',
+    a:{accent:'#F59E0B',edge:'#B45309',chipTxt:'#3a2600',glow:'rgba(245,158,11,.72)'}, b:{accent:'#EA580C',edge:'#9A3412',chipTxt:'#fff',glow:'rgba(234,88,12,.72)'}},
+  forest:{felt:'radial-gradient(80% 62% at 50% 44%,#4ADE80 0%,#16A34A 52%,#14532D 100%)',gold:'#FDE047',plaque:'#166534',headStroke:'#0b3d1f',
+    a:{accent:'#22C55E',edge:'#15803D',chipTxt:'#fff',glow:'rgba(34,197,94,.72)'}, b:{accent:'#EAB308',edge:'#854D0E',chipTxt:'#3a2600',glow:'rgba(234,179,8,.72)'}},
+  ocean:{felt:'radial-gradient(80% 62% at 50% 44%,#38BDF8 0%,#2563EB 52%,#1E3A8A 100%)',gold:'#FFD23F',plaque:'#1E40AF',headStroke:'#0f2557',
+    a:{accent:'#0EA5E9',edge:'#075985',chipTxt:'#fff',glow:'rgba(14,165,233,.72)'}, b:{accent:'#F97316',edge:'#9A3412',chipTxt:'#fff',glow:'rgba(249,115,22,.72)'}},
+  grape:{felt:'radial-gradient(80% 62% at 50% 44%,#A78BFA 0%,#7C3AED 52%,#4C1D95 100%)',gold:'#FDE047',plaque:'#5B21B6',headStroke:'#3b1275',
+    a:{accent:'#A855F7',edge:'#6B21A8',chipTxt:'#fff',glow:'rgba(168,85,247,.72)'}, b:{accent:'#EC4899',edge:'#9D174D',chipTxt:'#fff',glow:'rgba(236,72,153,.72)'}},
+  midnight:{felt:'radial-gradient(80% 62% at 50% 44%,#3730A3 0%,#1E1B4B 52%,#0B1020 100%)',gold:'#FBBF24',plaque:'#312E81',headStroke:'#0b0a24',
+    a:{accent:'#22D3EE',edge:'#0E7490',chipTxt:'#053345',glow:'rgba(34,211,238,.72)'}, b:{accent:'#F472B6',edge:'#9D174D',chipTxt:'#fff',glow:'rgba(244,114,182,.72)'}},
 };
 
 function suitBg(color){const s=['♠','♥','♦','♣'];let o='<div style="position:absolute;inset:0;overflow:hidden;opacity:.06">';let n=0;
@@ -50,7 +50,7 @@ const cardMarkup=(id,img,suit,label,side,fit)=>`
   </div>`;
 
 function build(Q){
-  const P = WARM[Q.pal] || WARM.coral;
+  const P = WARM[Q.pal] || WARM.sunset;
   const IA=b64(Q.imgA), IB=b64(Q.imgB);
   const GLOWA=`0 0 0 10px ${P.a.accent},0 0 46px 6px ${P.a.glow},0 40px 66px rgba(0,0,0,.55)`;
   const GLOWB=`0 0 0 10px ${P.b.accent},0 0 46px 6px ${P.b.glow},0 40px 66px rgba(0,0,0,.55)`;

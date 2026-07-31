@@ -21,7 +21,7 @@ CD = 3 * STEP               # countdown length (1.65s)
 REVEAL_HOLD = 2.05          # hold after the reveal lands
 MUSIC = os.path.join(ASSETS, "music_A.mp3")
 
-WARM = ["coral", "tangerine", "sunset", "cherry", "amber", "fuchsia"]
+WARM = ["sunset", "gold", "forest", "ocean", "grape", "midnight"]
 SUITS_A = ["♠", "♦", "♣"]     # ♠ ♦ ♣
 SUITS_B = ["♥", "♣", "♠"]     # ♥ ♣ ♠
 # header + sub per format (all WYR in production, but robust to others)
@@ -109,7 +109,7 @@ def build(items, out_path: str, background: str | None = None) -> str:
         vl = round(_clamp(d + 0.55, 1.6, 4.6), 2); vls.append(vl)
         head, sub = HEAD.get(it.fmt, HEAD["wyr"])
         rounds.append({
-            "pal": WARM[(i + poff) % len(WARM)], "head": head, "sub": sub,
+            "pal": WARM[poff], "head": head, "sub": sub,
             "la": it.a, "lb": it.b, "imgA": a_img, "imgB": b_img,
             "fitA": _fit(a_img), "fitB": _fit(b_img),
             "sa": SUITS_A[i % 3], "sb": SUITS_B[i % 3],
