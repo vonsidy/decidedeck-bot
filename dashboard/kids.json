@@ -3,7 +3,7 @@
     "title": "DecideDeck",
     "subscribers": 2,
     "views": 1870,
-    "videoCount": 8,
+    "videoCount": 9,
     "thumbnail": "https://yt3.ggpht.com/3f1ZMUfT67FGGTxg1-7ZbrO_iJx2OWD7VJA1A_VHWyUQ3p_BnCm7y_sM9mcqdmxbRPSjJ0xF84c=s88-c-k-c0x00ffffff-no-rj"
   },
   "videos": [
@@ -18,7 +18,7 @@
       "privacy": "public",
       "local_time": "11:49 AM",
       "manual": false,
-      "views": 0,
+      "views": 6,
       "likes": 0,
       "comments": 0,
       "clipcheck": {
@@ -264,7 +264,7 @@
       "privacy": "public",
       "local_time": "01:19 PM",
       "manual": false,
-      "views": 291,
+      "views": 293,
       "likes": 3,
       "comments": 0,
       "clipcheck": {
@@ -387,7 +387,7 @@
       "privacy": "public",
       "local_time": "06:54 PM",
       "manual": false,
-      "views": 551,
+      "views": 589,
       "likes": 5,
       "comments": 0,
       "clipcheck": {
@@ -510,7 +510,7 @@
       "privacy": "public",
       "local_time": "01:16 PM",
       "manual": false,
-      "views": 139,
+      "views": 142,
       "likes": 1,
       "comments": 0,
       "clipcheck": {
@@ -756,7 +756,7 @@
       "privacy": "public",
       "local_time": "01:20 PM",
       "manual": false,
-      "views": 1298,
+      "views": 1345,
       "likes": 12,
       "comments": 0,
       "clipcheck": {
@@ -1077,7 +1077,7 @@
       "d": "2026-08-01",
       "subs": 2,
       "views": 1870,
-      "likes": 29
+      "likes": 30
     }
   ],
   "pending_comments": [],
@@ -1108,7 +1108,7 @@
     "max_per_day": 2
   },
   "started": "2026-07-27",
-  "updated": "2026-08-01T15:49:10+00:00",
+  "updated": "2026-08-01T20:13:54+00:00",
   "clipcheck": {
     "mode": "observation",
     "reports": [
