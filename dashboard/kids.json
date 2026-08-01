@@ -8,6 +8,129 @@
   },
   "videos": [
     {
+      "date": "2026-08-01T15:49:09+00:00",
+      "id": "9hFsk4JXZqk",
+      "url": "https://youtube.com/shorts/9hFsk4JXZqk",
+      "title": "This one splits everyone: Sit next to your crush all year or Never have homework again \ud83d\ude33",
+      "format": "wyr",
+      "theme": "Would You Rather",
+      "rounds": 3,
+      "privacy": "public",
+      "local_time": "11:49 AM",
+      "manual": false,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "clipcheck": {
+        "reportId": "5bcc73f7-7ab7-48af-a0ca-7447247ae348",
+        "botId": "kids",
+        "assetId": "5da31729c9c798bb372c",
+        "platform": "youtube",
+        "decision": "pass",
+        "score": 100,
+        "createdAt": "2026-08-01T15:49:08+00:00",
+        "metadata": {
+          "filename": "short.mp4",
+          "width": 1080,
+          "height": 1920,
+          "durationSeconds": 23.7,
+          "hasAudio": true,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "bytes": 5235735
+        },
+        "findings": [
+          {
+            "checkId": "file-intact",
+            "passed": true,
+            "severity": "error",
+            "message": "File size and bitrate look like a real render.",
+            "evidence": {
+              "bytes": 5235735,
+              "bitrateKbps": 1767,
+              "minBytes": 50000,
+              "minKbps": 60
+            }
+          },
+          {
+            "checkId": "audio-stream",
+            "passed": true,
+            "severity": "error",
+            "message": "An audio stream is present.",
+            "evidence": {
+              "hasAudio": true,
+              "audioCodec": "aac"
+            }
+          },
+          {
+            "checkId": "vertical-aspect-ratio",
+            "passed": true,
+            "severity": "error",
+            "message": "Video uses the expected vertical aspect ratio.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "aspectRatio": 0.5625
+            }
+          },
+          {
+            "checkId": "minimum-resolution",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video meets the configured minimum resolution.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "minimumWidth": 720,
+              "minimumHeight": 1280
+            }
+          },
+          {
+            "checkId": "duration",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video duration is inside the configured range.",
+            "evidence": {
+              "durationSeconds": 23.7,
+              "minimumSeconds": 1,
+              "maximumSeconds": 180
+            }
+          },
+          {
+            "checkId": "even-dimensions",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video dimensions are encoder-friendly even numbers.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          {
+            "checkId": "audio-not-silent",
+            "passed": true,
+            "severity": "error",
+            "message": "Audio has real sound.",
+            "evidence": {
+              "meanVolumeDb": -19.3,
+              "silentThresholdDb": -50
+            }
+          },
+          {
+            "checkId": "not-mostly-black",
+            "passed": true,
+            "severity": "error",
+            "message": "Frames are drawing normally.",
+            "evidence": {
+              "blackSeconds": 0,
+              "blackFraction": 0.0,
+              "maxBlackFraction": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
       "date": "2026-07-31T22:47:29+00:00",
       "id": "Va9vIEDPa44",
       "url": "https://youtube.com/shorts/Va9vIEDPa44",
@@ -18,7 +141,7 @@
       "privacy": "public",
       "local_time": "06:47 PM",
       "manual": false,
-      "views": 578,
+      "views": 707,
       "likes": 9,
       "comments": 0,
       "clipcheck": {
@@ -141,7 +264,7 @@
       "privacy": "public",
       "local_time": "01:19 PM",
       "manual": false,
-      "views": 288,
+      "views": 291,
       "likes": 3,
       "comments": 0,
       "clipcheck": {
@@ -264,8 +387,8 @@
       "privacy": "public",
       "local_time": "06:54 PM",
       "manual": false,
-      "views": 507,
-      "likes": 4,
+      "views": 551,
+      "likes": 5,
       "comments": 0,
       "clipcheck": {
         "reportId": "ae0bcef6-627b-4880-b4cc-092ac75905ce",
@@ -387,7 +510,7 @@
       "privacy": "public",
       "local_time": "01:16 PM",
       "manual": false,
-      "views": 137,
+      "views": 139,
       "likes": 1,
       "comments": 0,
       "clipcheck": {
@@ -633,7 +756,7 @@
       "privacy": "public",
       "local_time": "01:20 PM",
       "manual": false,
-      "views": 1265,
+      "views": 1298,
       "likes": 12,
       "comments": 0,
       "clipcheck": {
@@ -872,6 +995,12 @@
   "runs": [
     {
       "status": "posted",
+      "title": "This one splits everyone: Sit next to your crush all year or Never have homework again \ud83d\ude33",
+      "manual": false,
+      "time": "2026-08-01T15:49:09+00:00"
+    },
+    {
+      "status": "posted",
       "title": "Hardest WYR ever: Give up TikTok forever or Give up Instagram forever \ud83e\udd14",
       "manual": false,
       "time": "2026-07-31T22:47:29+00:00"
@@ -948,7 +1077,7 @@
       "d": "2026-08-01",
       "subs": 2,
       "views": 1870,
-      "likes": 28
+      "likes": 29
     }
   ],
   "pending_comments": [],
@@ -970,7 +1099,6 @@
   },
   "schedule": {
     "upcoming": [
-      "2026-08-01T11:41:00-04:00",
       "2026-08-01T18:18:00-04:00",
       "2026-08-02T15:04:00-04:00",
       "2026-08-02T20:38:00-04:00",
@@ -980,7 +1108,7 @@
     "max_per_day": 2
   },
   "started": "2026-07-27",
-  "updated": "2026-08-01T07:39:40+00:00",
+  "updated": "2026-08-01T15:49:10+00:00",
   "clipcheck": {
     "mode": "observation",
     "reports": [
@@ -1739,25 +1867,133 @@
             }
           }
         ]
+      },
+      {
+        "reportId": "5bcc73f7-7ab7-48af-a0ca-7447247ae348",
+        "botId": "kids",
+        "assetId": "5da31729c9c798bb372c",
+        "platform": "youtube",
+        "decision": "pass",
+        "score": 100,
+        "createdAt": "2026-08-01T15:49:08+00:00",
+        "metadata": {
+          "filename": "short.mp4",
+          "width": 1080,
+          "height": 1920,
+          "durationSeconds": 23.7,
+          "hasAudio": true,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "bytes": 5235735
+        },
+        "findings": [
+          {
+            "checkId": "file-intact",
+            "passed": true,
+            "severity": "error",
+            "message": "File size and bitrate look like a real render.",
+            "evidence": {
+              "bytes": 5235735,
+              "bitrateKbps": 1767,
+              "minBytes": 50000,
+              "minKbps": 60
+            }
+          },
+          {
+            "checkId": "audio-stream",
+            "passed": true,
+            "severity": "error",
+            "message": "An audio stream is present.",
+            "evidence": {
+              "hasAudio": true,
+              "audioCodec": "aac"
+            }
+          },
+          {
+            "checkId": "vertical-aspect-ratio",
+            "passed": true,
+            "severity": "error",
+            "message": "Video uses the expected vertical aspect ratio.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "aspectRatio": 0.5625
+            }
+          },
+          {
+            "checkId": "minimum-resolution",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video meets the configured minimum resolution.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920,
+              "minimumWidth": 720,
+              "minimumHeight": 1280
+            }
+          },
+          {
+            "checkId": "duration",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video duration is inside the configured range.",
+            "evidence": {
+              "durationSeconds": 23.7,
+              "minimumSeconds": 1,
+              "maximumSeconds": 180
+            }
+          },
+          {
+            "checkId": "even-dimensions",
+            "passed": true,
+            "severity": "warning",
+            "message": "Video dimensions are encoder-friendly even numbers.",
+            "evidence": {
+              "width": 1080,
+              "height": 1920
+            }
+          },
+          {
+            "checkId": "audio-not-silent",
+            "passed": true,
+            "severity": "error",
+            "message": "Audio has real sound.",
+            "evidence": {
+              "meanVolumeDb": -19.3,
+              "silentThresholdDb": -50
+            }
+          },
+          {
+            "checkId": "not-mostly-black",
+            "passed": true,
+            "severity": "error",
+            "message": "Frames are drawing normally.",
+            "evidence": {
+              "blackSeconds": 0,
+              "blackFraction": 0.0,
+              "maxBlackFraction": 0.5
+            }
+          }
+        ]
       }
     ],
     "latest": {
-      "reportId": "1235c5ab-d5a0-4e7f-bc45-8dfe08f60520",
+      "reportId": "5bcc73f7-7ab7-48af-a0ca-7447247ae348",
       "botId": "kids",
-      "assetId": "f559eefa6f1d5e377933",
+      "assetId": "5da31729c9c798bb372c",
       "platform": "youtube",
       "decision": "pass",
       "score": 100,
-      "createdAt": "2026-07-31T22:47:27+00:00",
+      "createdAt": "2026-08-01T15:49:08+00:00",
       "metadata": {
         "filename": "short.mp4",
         "width": 1080,
         "height": 1920,
-        "durationSeconds": 23.6,
+        "durationSeconds": 23.7,
         "hasAudio": true,
         "videoCodec": "h264",
         "audioCodec": "aac",
-        "bytes": 5038502
+        "bytes": 5235735
       },
       "findings": [
         {
@@ -1766,8 +2002,8 @@
           "severity": "error",
           "message": "File size and bitrate look like a real render.",
           "evidence": {
-            "bytes": 5038502,
-            "bitrateKbps": 1708,
+            "bytes": 5235735,
+            "bitrateKbps": 1767,
             "minBytes": 50000,
             "minKbps": 60
           }
@@ -1811,7 +2047,7 @@
           "severity": "warning",
           "message": "Video duration is inside the configured range.",
           "evidence": {
-            "durationSeconds": 23.6,
+            "durationSeconds": 23.7,
             "minimumSeconds": 1,
             "maximumSeconds": 180
           }
@@ -1832,7 +2068,7 @@
           "severity": "error",
           "message": "Audio has real sound.",
           "evidence": {
-            "meanVolumeDb": -19.2,
+            "meanVolumeDb": -19.3,
             "silentThresholdDb": -50
           }
         },
