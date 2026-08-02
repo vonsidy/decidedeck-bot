@@ -1,9 +1,9 @@
 {
   "channel": {
     "title": "DecideDeck",
-    "subscribers": 2,
+    "subscribers": 3,
     "views": 1870,
-    "videoCount": 9,
+    "videoCount": 10,
     "thumbnail": "https://yt3.ggpht.com/3f1ZMUfT67FGGTxg1-7ZbrO_iJx2OWD7VJA1A_VHWyUQ3p_BnCm7y_sM9mcqdmxbRPSjJ0xF84c=s88-c-k-c0x00ffffff-no-rj"
   },
   "videos": [
@@ -18,8 +18,8 @@
       "privacy": "public",
       "local_time": "07:54 PM",
       "manual": false,
-      "views": 0,
-      "likes": 0,
+      "views": 492,
+      "likes": 2,
       "comments": 0,
       "clipcheck": {
         "reportId": "7c716d6e-6d16-4b1e-8d6e-7f86c1e1b6e4",
@@ -141,7 +141,7 @@
       "privacy": "public",
       "local_time": "11:49 AM",
       "manual": false,
-      "views": 14,
+      "views": 25,
       "likes": 0,
       "comments": 0,
       "clipcheck": {
@@ -264,7 +264,7 @@
       "privacy": "public",
       "local_time": "06:47 PM",
       "manual": false,
-      "views": 707,
+      "views": 718,
       "likes": 9,
       "comments": 0,
       "clipcheck": {
@@ -387,7 +387,7 @@
       "privacy": "public",
       "local_time": "01:19 PM",
       "manual": false,
-      "views": 311,
+      "views": 321,
       "likes": 3,
       "comments": 0,
       "clipcheck": {
@@ -510,7 +510,7 @@
       "privacy": "public",
       "local_time": "06:54 PM",
       "manual": false,
-      "views": 602,
+      "views": 623,
       "likes": 5,
       "comments": 0,
       "clipcheck": {
@@ -633,7 +633,7 @@
       "privacy": "public",
       "local_time": "01:16 PM",
       "manual": false,
-      "views": 142,
+      "views": 144,
       "likes": 1,
       "comments": 0,
       "clipcheck": {
@@ -756,7 +756,7 @@
       "privacy": "public",
       "local_time": "06:42 PM",
       "manual": false,
-      "views": 58,
+      "views": 61,
       "likes": 1,
       "comments": 0,
       "clipcheck": {
@@ -879,7 +879,7 @@
       "privacy": "public",
       "local_time": "01:20 PM",
       "manual": false,
-      "views": 1346,
+      "views": 1349,
       "likes": 12,
       "comments": 0,
       "clipcheck": {
@@ -1002,7 +1002,7 @@
       "privacy": "public",
       "local_time": "04:16 PM",
       "manual": false,
-      "views": 30,
+      "views": 32,
       "likes": 1,
       "comments": 0,
       "clipcheck": {
@@ -1207,6 +1207,12 @@
       "subs": 2,
       "views": 1870,
       "likes": 30
+    },
+    {
+      "d": "2026-08-02",
+      "subs": 3,
+      "views": 1870,
+      "likes": 32
     }
   ],
   "pending_comments": [],
@@ -1231,12 +1237,14 @@
       "2026-08-02T15:04:00-04:00",
       "2026-08-02T20:38:00-04:00",
       "2026-08-03T15:05:00-04:00",
-      "2026-08-03T19:35:00-04:00"
+      "2026-08-03T19:35:00-04:00",
+      "2026-08-04T11:15:00-04:00",
+      "2026-08-04T21:13:00-04:00"
     ],
     "max_per_day": 2
   },
   "started": "2026-07-27",
-  "updated": "2026-08-01T23:54:21+00:00",
+  "updated": "2026-08-02T07:55:51+00:00",
   "clipcheck": {
     "mode": "observation",
     "reports": [
