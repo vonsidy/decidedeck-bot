@@ -1217,8 +1217,8 @@
   ],
   "pending_comments": [],
   "learning": {
-    "ready": false,
-    "trained_on": 3,
+    "ready": true,
+    "trained_on": 5,
     "needs": 4,
     "min_age_days": 3.0,
     "min_per_option": 2,
@@ -1227,24 +1227,24 @@
     },
     "counts": {
       "theme": {
-        "Would You Rather": 3
+        "Would You Rather": 5
       }
     },
     "best_theme": "Would You Rather"
   },
   "schedule": {
     "upcoming": [
-      "2026-08-02T15:04:00-04:00",
-      "2026-08-02T20:38:00-04:00",
       "2026-08-03T15:05:00-04:00",
       "2026-08-03T19:35:00-04:00",
       "2026-08-04T11:15:00-04:00",
-      "2026-08-04T21:13:00-04:00"
+      "2026-08-04T21:13:00-04:00",
+      "2026-08-05T11:10:00-04:00",
+      "2026-08-05T21:15:00-04:00"
     ],
     "max_per_day": 2
   },
   "started": "2026-07-27",
-  "updated": "2026-08-02T15:47:40+00:00",
+  "updated": "2026-08-03T12:41:03+00:00",
   "clipcheck": {
     "mode": "observation",
     "reports": [
